@@ -1,0 +1,6 @@
+framework module Pods_F1StatisticsAppWithAlamoF {
+  umbrella header "Pods-F1StatisticsAppWithAlamoF-umbrella.h"
+
+  export *
+  module * { export * }
+}
