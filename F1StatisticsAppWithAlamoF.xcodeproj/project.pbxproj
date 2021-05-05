@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04156FBF264134F800437ED6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04156FBE264134F800437ED6 /* MainViewController.swift */; };
+		04156FC22641352000437ED6 /* FOneViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04156FC12641352000437ED6 /* FOneViewCell.swift */; };
+		04156FC72641365B00437ED6 /* DriverModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04156FC62641365B00437ED6 /* DriverModel.swift */; };
+		04156FCF2641382B00437ED6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04156FCE2641382B00437ED6 /* NetworkManager.swift */; };
 		04ECB87F2641314A00C774ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB87E2641314A00C774ED /* AppDelegate.swift */; };
 		04ECB8812641314A00C774ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB8802641314A00C774ED /* SceneDelegate.swift */; };
-		04ECB8832641314A00C774ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ECB8822641314A00C774ED /* ViewController.swift */; };
 		04ECB8862641314A00C774ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB8842641314A00C774ED /* Main.storyboard */; };
 		04ECB8882641315000C774ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB8872641315000C774ED /* Assets.xcassets */; };
 		04ECB88B2641315000C774ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ECB8892641315000C774ED /* LaunchScreen.storyboard */; };
+		1E9753230AB6B94A0CDD7AA4 /* Pods_F1StatisticsAppWithAlamoF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981BC7EB86E2C9C05D1CD52 /* Pods_F1StatisticsAppWithAlamoF.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04156FBE264134F800437ED6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04156FC12641352000437ED6 /* FOneViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOneViewCell.swift; sourceTree = "<group>"; };
+		04156FC62641365B00437ED6 /* DriverModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverModel.swift; sourceTree = "<group>"; };
+		04156FCE2641382B00437ED6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		04ECB87B2641314A00C774ED /* F1StatisticsAppWithAlamoF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F1StatisticsAppWithAlamoF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ECB87E2641314A00C774ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04ECB8802641314A00C774ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04ECB8822641314A00C774ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04ECB8852641314A00C774ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04ECB8872641315000C774ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04ECB88A2641315000C774ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04ECB88C2641315000C774ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3981BC7EB86E2C9C05D1CD52 /* Pods_F1StatisticsAppWithAlamoF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_F1StatisticsAppWithAlamoF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8858B0C481183FCF91D54A05 /* Pods-F1StatisticsAppWithAlamoF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F1StatisticsAppWithAlamoF.debug.xcconfig"; path = "Target Support Files/Pods-F1StatisticsAppWithAlamoF/Pods-F1StatisticsAppWithAlamoF.debug.xcconfig"; sourceTree = "<group>"; };
+		E9ACED9FAAC2F1C16CF204BD /* Pods-F1StatisticsAppWithAlamoF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F1StatisticsAppWithAlamoF.release.xcconfig"; path = "Target Support Files/Pods-F1StatisticsAppWithAlamoF/Pods-F1StatisticsAppWithAlamoF.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9753230AB6B94A0CDD7AA4 /* Pods_F1StatisticsAppWithAlamoF.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04156FC9264137DB00437ED6 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				04ECB87E2641314A00C774ED /* AppDelegate.swift */,
+				04ECB8802641314A00C774ED /* SceneDelegate.swift */,
+				04ECB88C2641315000C774ED /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		04156FCA264137EE00437ED6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04ECB8842641314A00C774ED /* Main.storyboard */,
+				04ECB8892641315000C774ED /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04156FCB264137FB00437ED6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04156FC12641352000437ED6 /* FOneViewCell.swift */,
+				04156FBE264134F800437ED6 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		04156FCC2641380E00437ED6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04156FC62641365B00437ED6 /* DriverModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04156FD226415B3C00437ED6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04156FCE2641382B00437ED6 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		04ECB8722641314A00C774ED = {
 			isa = PBXGroup;
 			children = (
 				04ECB87D2641314A00C774ED /* F1StatisticsAppWithAlamoF */,
+				04ECB8872641315000C774ED /* Assets.xcassets */,
 				04ECB87C2641314A00C774ED /* Products */,
+				1AF6521442CD51D70FE081D3 /* Pods */,
+				A088E9E64DED657B1FAA32C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +114,30 @@
 		04ECB87D2641314A00C774ED /* F1StatisticsAppWithAlamoF */ = {
 			isa = PBXGroup;
 			children = (
-				04ECB87E2641314A00C774ED /* AppDelegate.swift */,
-				04ECB8802641314A00C774ED /* SceneDelegate.swift */,
-				04ECB8822641314A00C774ED /* ViewController.swift */,
-				04ECB8842641314A00C774ED /* Main.storyboard */,
-				04ECB8872641315000C774ED /* Assets.xcassets */,
-				04ECB8892641315000C774ED /* LaunchScreen.storyboard */,
-				04ECB88C2641315000C774ED /* Info.plist */,
+				04156FC9264137DB00437ED6 /* Supporting */,
+				04156FCA264137EE00437ED6 /* Storyboards */,
+				04156FCB264137FB00437ED6 /* ViewControllers */,
+				04156FCC2641380E00437ED6 /* Models */,
+				04156FD226415B3C00437ED6 /* Services */,
 			);
 			path = F1StatisticsAppWithAlamoF;
+			sourceTree = "<group>";
+		};
+		1AF6521442CD51D70FE081D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8858B0C481183FCF91D54A05 /* Pods-F1StatisticsAppWithAlamoF.debug.xcconfig */,
+				E9ACED9FAAC2F1C16CF204BD /* Pods-F1StatisticsAppWithAlamoF.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A088E9E64DED657B1FAA32C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3981BC7EB86E2C9C05D1CD52 /* Pods_F1StatisticsAppWithAlamoF.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04ECB88F2641315000C774ED /* Build configuration list for PBXNativeTarget "F1StatisticsAppWithAlamoF" */;
 			buildPhases = (
+				39CE3EA94CBD9CCBCB4F753F /* [CP] Check Pods Manifest.lock */,
 				04ECB8772641314A00C774ED /* Sources */,
 				04ECB8782641314A00C774ED /* Frameworks */,
 				04ECB8792641314A00C774ED /* Resources */,
+				1B78ACB977A046D862CAC72C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +207,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B78ACB977A046D862CAC72C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-F1StatisticsAppWithAlamoF/Pods-F1StatisticsAppWithAlamoF-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-F1StatisticsAppWithAlamoF/Pods-F1StatisticsAppWithAlamoF-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-F1StatisticsAppWithAlamoF/Pods-F1StatisticsAppWithAlamoF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39CE3EA94CBD9CCBCB4F753F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-F1StatisticsAppWithAlamoF-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04ECB8772641314A00C774ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04ECB8832641314A00C774ED /* ViewController.swift in Sources */,
+				04156FCF2641382B00437ED6 /* NetworkManager.swift in Sources */,
+				04156FC22641352000437ED6 /* FOneViewCell.swift in Sources */,
+				04156FBF264134F800437ED6 /* MainViewController.swift in Sources */,
 				04ECB87F2641314A00C774ED /* AppDelegate.swift in Sources */,
 				04ECB8812641314A00C774ED /* SceneDelegate.swift in Sources */,
+				04156FC72641365B00437ED6 /* DriverModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +403,13 @@
 		};
 		04ECB8902641315000C774ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8858B0C481183FCF91D54A05 /* Pods-F1StatisticsAppWithAlamoF.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCX8Z993GT;
-				INFOPLIST_FILE = F1StatisticsAppWithAlamoF/Info.plist;
+				INFOPLIST_FILE = F1StatisticsAppWithAlamoF/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +423,13 @@
 		};
 		04ECB8912641315000C774ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ACED9FAAC2F1C16CF204BD /* Pods-F1StatisticsAppWithAlamoF.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JCX8Z993GT;
-				INFOPLIST_FILE = F1StatisticsAppWithAlamoF/Info.plist;
+				INFOPLIST_FILE = F1StatisticsAppWithAlamoF/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
